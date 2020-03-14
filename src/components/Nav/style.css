@@ -1,0 +1,11 @@
+.navbar {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.navbar .title {
+    font-family: 'TitleFont';
+}
+
+.navbar .buttons .button {
+    border-radius: 50%;
+}
