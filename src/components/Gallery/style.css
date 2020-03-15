@@ -1,0 +1,37 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 1rem; */
+    place-items: center;
+    justify-content: center;
+}
+
+.photo-grid img {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
+.photo-grid img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.memory:hover .words {
+    display: block;
+}
+
+.memory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.words {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    display: none;
+}
