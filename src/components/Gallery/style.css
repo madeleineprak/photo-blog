@@ -7,13 +7,18 @@
 }
 
 .photo-grid img {
-    height: 500px;
+    height: 700px;
     width: 500px;
     object-fit: cover;
     filter: grayscale(1);
 }
 
 .photo-grid img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.photo-grid .words:hover img {
     filter: grayscale(0);
     cursor: pointer;
 }
@@ -32,6 +37,9 @@
 .words {
     position: absolute;
     color: white;
+    font-weight: bolder;
     z-index: 1;
     display: none;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
 }

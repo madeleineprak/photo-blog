@@ -1,19 +1,18 @@
 import React from 'react'
 import './style.css'
+import photos from '../../data'
 
 function Gallery() {
     return (
         <div className="photo-grid container">
-            <div className="memory">
-                <img className="photo" src={require('../../assets/photos/1.jfif')}></img>
-                <div className="words">mountains</div>
-            </div>
-            <div className="memory">
-                <img className="photo" src={require('../../assets/photos/2.jfif')}></img>
-                <div className="words">mountains</div>
-            </div>
-            <img src={require('../../assets/photos/3.jfif')}></img>
-            <img src={require('../../assets/photos/4.jfif')}></img>
+            {
+                photos.map(photo => (
+                    <div className="memory" key={photo.id}>
+                        <img className="photo" src={photo.photo}></img>
+                        <div className="words">{photo.words}</div>
+                    </div>
+                ))
+            }
         </div>
     )
 }

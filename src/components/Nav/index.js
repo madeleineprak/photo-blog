@@ -7,7 +7,7 @@ function Nav() {
             <div className="container">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="">
-                        <h1 className="title">M E M O R I E S</h1>
+                        <h1 className="title">LIFE OF MINE</h1>
                     </a>
                     <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                         <span></span>
