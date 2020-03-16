@@ -17,4 +17,5 @@ html, body {
   height: 100%;
   font-family: "HKGroteskRegular", Roboto, sans-serif !important;
   scroll-behavior: smooth;
+  cursor: url('../src/assets/photos/party.png'), auto;
 }

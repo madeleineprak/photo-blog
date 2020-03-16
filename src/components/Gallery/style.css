@@ -18,12 +18,7 @@
 
 .photo-grid img:hover {
     filter: grayscale(0);
-    cursor: pointer;
-}
-
-.photo-grid .words:hover img {
-    filter: grayscale(0);
-    cursor: pointer;
+    cursor: url('../../assets/photos/party.png'), auto;
 }
 
 .memory:hover .words {
