@@ -4,6 +4,7 @@
 
 .navbar .title {
     font-family: 'TitleFont';
+    color: black;
 }
 
 .navbar .buttons .button {
