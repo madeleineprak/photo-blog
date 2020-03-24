@@ -7,12 +7,12 @@
 }
 
 .photo-grid img {
-    height: 700px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     filter: grayscale(1);
     background: #fff;
-    padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
     box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
 }
 
